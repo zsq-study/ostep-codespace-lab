@@ -1,0 +1,82 @@
+# OSTEP OS Lab check result
+format: 2
+github_user: zsq-study
+codespaces: true
+codespace_name: friendly-lamp-6v57gxp7qwqxfrp45
+github_repository: zsq-study/ostep-codespace-lab
+origin: https://github.com/zsq-study/ostep-codespace-lab
+repo_head: 624bea6622cf7fbc1cbcd25557d7d4dd0f59f369
+homework_commit: afb36ca
+check_sh_sha256: 1ff6ace36d26d7a0e1e97453028d17e96c8bca4301f17ffcf4530c768c4c62f2
+kernel: 6.8.0-1064-azure
+os: Ubuntu 24.04.5 LTS
+cpus: 2
+boot_id: e2cc379b-888d-496b-891c-70d8df332530
+run_id: 007f4dc4-668b-417f-ac12-9fe980c07377
+started_utc: 2026-09-29T06:14:06Z
+finished_utc: 2026-09-29T06:14:22Z
+duration_ms: 15353
+result: PASS 61 / FAIL 0
+items:
+  PASS	Ubuntu 24.04	7
+  PASS	python 명령 = Python 3	11
+  PASS	tkinter	92
+  PASS	gcc 설치	6
+  PASS	make 설치	6
+  PASS	gdb 설치	6
+  PASS	strace 설치	5
+  PASS	ltrace 설치	4
+  PASS	valgrind 설치	4
+  PASS	vmstat 설치	4
+  PASS	gdb로 프로그램 실행	479
+  PASS	strace 권한	21
+  PASS	저장소 폴더	3
+  PASS	origin이 학생 fork	12
+  PASS	ext/ostep-homework	5
+  PASS	ext/ostep-code	4
+  PASS	homework 버전 afb36ca	12
+  PASS	ext/는 git 추적 제외	14
+  PASS	cpu-api/fork.py	48
+  PASS	cpu-api/generator.py	2388
+  PASS	cpu-intro/process-run.py	34
+  PASS	cpu-sched-lottery/lottery.py	32
+  PASS	cpu-sched-mlfq/mlfq.py	45
+  PASS	cpu-sched-multi/multi.py	42
+  PASS	cpu-sched/scheduler.py	32
+  PASS	dist-afs/afs.py	40
+  PASS	file-devices/process-run.py	35
+  PASS	file-disks/disk-precise.py	59
+  PASS	file-disks/disk.py	47
+  PASS	file-ffs/ffs.py	38
+  PASS	file-implementation/vsfs.py	36
+  PASS	file-integrity/checksum.py	33
+  PASS	file-journaling/fsck.py	39
+  PASS	file-lfs/lfs.py	41
+  PASS	file-raid/raid.py	35
+  PASS	file-ssd/ssd.py	39
+  PASS	threads-intro/x86.py	63
+  PASS	threads-locks/x86.py	59
+  PASS	vm-beyondphys-policy/paging-policy.py	37
+  PASS	vm-freespace/malloc.py	33
+  PASS	vm-mechanism/relocation.py	34
+  PASS	vm-paging/paging-linear-translate.py	38
+  PASS	vm-segmentation/segmentation.py	34
+  PASS	vm-smalltables/paging-multilevel-translate.py	46
+  PASS	homework/threads-api	276
+  PASS	homework/threads-cv	314
+  PASS	homework/threads-bugs	472
+  PASS	homework/vm-beyondphys	64
+  PASS	code/intro	204
+  PASS	code/cpu-api	198
+  PASS	code/vm-intro	47
+  PASS	code/threads-intro	131
+  PASS	code/threads-api	205
+  PASS	code/threads-cv	443
+  PASS	code/threads-sema	574
+  PASS	code/threads-bugs	283
+  PASS	code/dist-intro	212
+  PASS	helgrind가 경쟁 조건 탐지	420
+  PASS	mem 실행 (3초)	3006
+  PASS	vmstat 실행	1008
+  PASS	code/intro/cpu 실행	3008
+result_sha256: 84344ad38115ad758257666a9d92310c3962a478e156b52e5a58125df555af15
